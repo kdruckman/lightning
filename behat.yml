@@ -2,6 +2,7 @@ imports:
   - 'docroot/modules/contrib/lightning_core/tests/mink.behat.yml'
   - 'docroot/modules/contrib/lightning_core/behat.yml'
   - 'docroot/modules/contrib/lightning_api/behat.yml'
+  - 'docroot/modules/contrib/lightning_layout/behat.yml'
 
 default:
   suites:
