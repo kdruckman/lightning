@@ -1,9 +1,10 @@
 imports:
   - 'docroot/modules/contrib/lightning_core/tests/mink.behat.yml'
+  - 'docroot/modules/contrib/lightning_core/behat.yml'
 
 default:
   suites:
-    default:
+    lightning:
       paths:
         - 'tests/features'
       contexts:
