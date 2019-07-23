@@ -487,16 +487,11 @@ function lightning_alter_frontpage_view() {
  * Implements hook_modules_installed().
  */
 function lightning_modules_installed(array $modules) {
-  if (\Drupal::isConfigSyncing()) {
-    return;
-  }
-
-  if (in_array('lightning_dev', $modules, TRUE)) {
-    Config::forModule('lightning_media')
-      ->optional()
-      ->getEntity('user_role', 'media_creator')
-      ->grantPermission('use editorial transition create_new_draft')
-      ->save();
+  // If menu_ui is installed, token provides a base field called menu_link.
+  // Therefore, if either module is enabled, the field definition cache should
+  // be updated to account for the change.
+  if (in_array('token', $modules, TRUE) || in_array('menu_ui', $modules, TRUE)) {
+    Drupal::service('entity_field.manager')->clearCachedFieldDefinitions();
   }
 }
 
