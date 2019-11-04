@@ -22,7 +22,7 @@ releases:
   4.0.0:
     drupal_version: 8.x-4.000
     update_steps: true
-    update_instructions: https://github.com/kdruckman/lightning/blob/8.x-4.x/UPDATE.md#331-to-400
+    update_instructions: https://github.com/acquia/lightning/blob/8.x-4.x/UPDATE.md#331-to-400
 
   3.3.3:
     drupal_version: 8.x-3.303
@@ -42,7 +42,7 @@ releases:
   3.3.0:
     drupal_version: 8.x-3.300
     update_steps: true
-    update_instructions: https://github.com/kdruckman/lightning/blob/8.x-4.x/UPDATE.md#329-to-330
+    update_instructions: https://github.com/acquia/lightning/blob/8.x-4.x/UPDATE.md#329-to-330
 
   3.2.9:
     drupal_version: 8.x-3.209
@@ -128,3 +128,68 @@ releases:
     drupal_version: 8.x-3.101
     update_steps: true
     update_instructions: https://github.com/acquia/lightning/blob/8.x-3.x/UPDATE.md#310-to-311
+
+  3.1.0:
+    drupal_version: 8.x-3.100
+    update_steps: true
+    update_instructions: https://github.com/acquia/lightning/blob/8.x-3.x/UPDATE.md#303-to-310
+
+  3.0.3:
+    drupal_version: 8.x-3.003
+    update_steps: false
+    update_instructions: null
+
+  3.0.2:
+    drupal_version: 8.x-3.002
+    update_steps: false
+    update_instructions: null
+
+  3.0.1:
+    drupal_version: 8.x-3.001
+    update_steps: false
+    update_instructions: null
+
+  3.0.0:
+    drupal_version: 8.x-3.000
+    update_steps: true
+    update_instructions: https://github.com/acquia/lightning/blob/8.x-3.x/UPDATE.md#228-to-300
+
+  2.2.10:
+    drupal_version: 8.x-2.210
+    update_steps: false
+    update_instructions: null
+
+  2.2.9:
+    drupal_version: 8.x-2.209
+    update_steps: false
+    update_instructions: null
+
+  2.2.8:
+    drupal_version: 8.x-2.208
+    update_steps: false
+    update_instructions: null
+
+  2.2.7:
+    drupal_version: 8.x-2.207
+    update_steps: false
+    update_instructions: null
+
+  2.2.6:
+    drupal_version: 8.x-2.206
+    update_steps: false
+    update_instructions: null
+
+  2.2.5:
+    drupal_version: 8.x-2.205
+    update_steps: false
+    update_instructions: null
+
+  2.2.4:
+    drupal_version: 8.x-2.204
+    update_steps: true
+    update_instructions: https://github.com/acquia/lightning/blob/8.x-2.x/UPDATE.md#223-to-224
+
+  2.2.3:
+    drupal_version: 8.x-2.203
+    update_steps: false
+    update_instructions: null
